@@ -1,0 +1,12 @@
+.button {
+  display: inline-block;
+  padding: 20px 30px;
+  background-color: #F62682;
+  border-radius: 8px;
+  margin: 40px;
+  width: 300px;
+}
+.button--secondary {
+  background-color: #2cccff;
+  color: white;
+}/*# sourceMappingURL=button.css.map */
