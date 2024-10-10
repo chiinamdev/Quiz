@@ -16,7 +16,7 @@ const HomePage = (props) => {
             cupiditate, doloremque ullam? Perspiciatis neque reiciendis quos
             velit temporibus deleniti harum cum. Illo.
           </div>
-          <Button className="mt-10 mx-auto">Get started. <span className='lg:inline hidden'>It's free</span></Button>
+          <Button to="/login" className="mt-10 mx-auto no-underline">Get started. <span className='lg:inline hidden'>It's free</span></Button>
         </div>
       </div>
     );

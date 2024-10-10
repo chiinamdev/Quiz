@@ -2,6 +2,7 @@ import './App.css';
 import Amber from './components/Header/Amber';
 import Header from './components/Header/Header';
 import { Outlet } from "react-router-dom";
+import Pricing from './components/Pricing';
 // import Card from './components/card/card';
 
 // import Header from './components/Header/Header';
@@ -17,8 +18,7 @@ function App() {
         <Header></Header>
       </div>
       <div className="main-container">
-        <div className="slidenav-contianer">
-        </div>
+        <div className="slidenav-contianer"></div>
         <div className="app-content">
           <Outlet></Outlet>
         </div>

@@ -16,6 +16,9 @@ import Admin from './components/Admin/Admin';
 import HomePage from './components/Home/HomePage';
 import UsersManager from './components/Content/UsersManager';
 import { ThemeProvider } from "@material-tailwind/react";
+import Pricing from './components/Pricing';
+import Testimonials from './components/Testimonials';
+import Login from './components/login/Login';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -24,11 +27,14 @@ root.render(
     <Routes>
       <Route path="/Quiz" element={<App />}>
         <Route index element={<HomePage />} />
+        <Route path="/Quiz/pricing" element={<Pricing />} />
+        <Route path="/Quiz/tes" element={<Testimonials />} />
         <Route path="/Quiz/users" element={<Users />} />
       </Route>
       <Route path="/admin" element={<Admin />}>
         <Route path="users-manager" element={<UsersManager />} />
       </Route>
+      <Route path="/login" element={<Login />} />
     </Routes>
   </BrowserRouter>
   // <Routes>

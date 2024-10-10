@@ -22,7 +22,7 @@ const SideBar = () => {
     return (
       <Sidebar aria-label="Sidebar" style={{height: '100vh '}}>
         <Sidebar.Logo href="/" img={brandimg} imgAlt="logo">
-          <Link to="/">Quiz App</Link>
+          <Link to="/Quiz">Quiz App</Link>
         </Sidebar.Logo>
         <Sidebar.Items>
           <Sidebar.ItemGroup>
