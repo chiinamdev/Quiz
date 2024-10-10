@@ -1,13 +1,9 @@
-import flowbite from "flowbite-react/tailwind";
-
-/** @type {import('tailwindcss').Config} */
-export default {
-  content: [
-    flowbite.content(),
-  ],
-  plugins: [
-    flowbite.plugin(),
-  ],
+module.exports = {
+  content: ["./src/**/*.{html,js}"],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
 };
 
 // const withMT = require("@material-tailwind/react/utils/withMT");

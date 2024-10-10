@@ -22,9 +22,9 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BrowserRouter>
     <Routes>
-      <Route path="/" element={<App />}>
+      <Route path="/Quiz" element={<App />}>
         <Route index element={<HomePage />} />
-        <Route path="/users" element={<Users />} />
+        <Route path="/Quiz/users" element={<Users />} />
       </Route>
       <Route path="/admin" element={<Admin />}>
         <Route path="users-manager" element={<UsersManager />} />

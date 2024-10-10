@@ -1,4 +1,4 @@
-import './App.scss';
+import './App.css';
 import Amber from './components/Header/Amber';
 import Header from './components/Header/Header';
 import { Outlet } from "react-router-dom";
