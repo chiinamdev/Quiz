@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.ced9958a.css",
-    "main.js": "/static/js/main.b665d60b.js",
-    "static/js/453.68693753.chunk.js": "/static/js/453.68693753.chunk.js",
-    "static/media/video-homepage.mp4": "/static/media/video-homepage.64c3c874560db383e773.mp4",
-    "index.html": "/index.html",
-    "main.ced9958a.css.map": "/static/css/main.ced9958a.css.map",
-    "main.b665d60b.js.map": "/static/js/main.b665d60b.js.map",
-    "453.68693753.chunk.js.map": "/static/js/453.68693753.chunk.js.map"
+    "main.css": "/Quiz/static/css/main.f5f10533.css",
+    "main.js": "/Quiz/static/js/main.f481437e.js",
+    "static/js/453.68693753.chunk.js": "/Quiz/static/js/453.68693753.chunk.js",
+    "static/media/video-homepage.mp4": "/Quiz/static/media/video-homepage.64c3c874560db383e773.mp4",
+    "index.html": "/Quiz/index.html",
+    "main.f5f10533.css.map": "/Quiz/static/css/main.f5f10533.css.map",
+    "main.f481437e.js.map": "/Quiz/static/js/main.f481437e.js.map",
+    "453.68693753.chunk.js.map": "/Quiz/static/js/453.68693753.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ced9958a.css",
-    "static/js/main.b665d60b.js"
+    "static/css/main.f5f10533.css",
+    "static/js/main.f481437e.js"
   ]
 }
